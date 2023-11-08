@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>孙尾苏</title>
+  
+  <subtitle>孙尾苏</subtitle>
+  <link href="https://sunweisu.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://sunweisu.github.io/"/>
+  <updated>2023-10-18T10:25:47.231Z</updated>
+  <id>https://sunweisu.github.io/</id>
+  
+  <author>
+    <name>孙尾苏</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>jmeter分布式压测</title>
+    <link href="https://sunweisu.github.io/2023/10/18/jmeter-fen-bu-shi-ya-ce/"/>
+    <id>https://sunweisu.github.io/2023/10/18/jmeter-fen-bu-shi-ya-ce/</id>
+    <published>2023-10-18T07:09:39.000Z</published>
+    <updated>2023-10-18T10:25:47.231Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Windows&quot;&gt;&lt;a href=&quot;#Windows&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="jmeter" scheme="https://sunweisu.github.io/categories/jmeter/"/>
+    
+    
+    <category term="jmter" scheme="https://sunweisu.github.io/tags/jmter/"/>
+    
+    <category term="分布式压测" scheme="https://sunweisu.github.io/tags/%E5%88%86%E5%B8%83%E5%BC%8F%E5%8E%8B%E6%B5%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>聊天AI的激活</title>
+    <link href="https://sunweisu.github.io/2023/07/03/liao-tian-ai-de-ji-huo/"/>
+    <id>https://sunweisu.github.io/2023/07/03/liao-tian-ai-de-ji-huo/</id>
+    <published>2023-07-03T03:41:47.000Z</published>
+    <updated>2023-11-07T07:20:12.264Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;font color=&quot;#660000&quot;&gt;注意：与任何平台无合作，仅供作为学习交流使用，后果自负，与我无关！&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font</summary>
+        
+      
+    
+    
+    
+    <category term="AI" scheme="https://sunweisu.github.io/categories/AI/"/>
+    
+    
+    <category term="AI聊天" scheme="https://sunweisu.github.io/tags/AI%E8%81%8A%E5%A4%A9/"/>
+    
+    <category term="人工智能" scheme="https://sunweisu.github.io/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>pythonhttprunner测试框架</title>
+    <link href="https://sunweisu.github.io/2023/06/28/pythonhttprunner-ce-shi-kuang-jia/"/>
+    <id>https://sunweisu.github.io/2023/06/28/pythonhttprunner-ce-shi-kuang-jia/</id>
+    <published>2023-06-28T08:36:02.000Z</published>
+    <updated>2023-07-05T09:04:54.449Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;一、为什么选择httpruner接口自动化&quot;&gt;&lt;a href=&quot;#一、为什么选择httpruner接口自动化&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="接口自动化" scheme="https://sunweisu.github.io/categories/%E6%8E%A5%E5%8F%A3%E8%87%AA%E5%8A%A8%E5%8C%96/"/>
+    
+    
+    <category term="python" scheme="https://sunweisu.github.io/tags/python/"/>
+    
+    <category term="httprunner" scheme="https://sunweisu.github.io/tags/httprunner/"/>
+    
+    <category term="接口" scheme="https://sunweisu.github.io/tags/%E6%8E%A5%E5%8F%A3/"/>
+    
+    <category term="requests" scheme="https://sunweisu.github.io/tags/requests/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>pythonui自动化</title>
+    <link href="https://sunweisu.github.io/2023/06/19/pythonui-zi-dong-hua/"/>
+    <id>https://sunweisu.github.io/2023/06/19/pythonui-zi-dong-hua/</id>
+    <published>2023-06-19T02:48:49.000Z</published>
+    <updated>2023-06-19T07:47:06.443Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;一、介绍及用处&quot;&gt;&lt;a href=&quot;#一、介绍及用处&quot; class=&quot;headerlink&quot; title=&quot;一、介绍及用处&quot;&gt;&lt;/a&gt;一、介绍及用处&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;Selenium是一个开源的Web</summary>
+        
+      
+    
+    
+    
+    <category term="ui自动化" scheme="https://sunweisu.github.io/categories/ui%E8%87%AA%E5%8A%A8%E5%8C%96/"/>
+    
+    
+    <category term="python" scheme="https://sunweisu.github.io/tags/python/"/>
+    
+    <category term="自动化" scheme="https://sunweisu.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/"/>
+    
+    <category term="selenium" scheme="https://sunweisu.github.io/tags/selenium/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>社会工程学</title>
+    <link href="https://sunweisu.github.io/2023/06/16/she-hui-gong-cheng-xue/"/>
+    <id>https://sunweisu.github.io/2023/06/16/she-hui-gong-cheng-xue/</id>
+    <published>2023-06-16T02:17:46.000Z</published>
+    <updated>2023-07-07T06:31:04.056Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;一、起源&quot;&gt;&lt;a href=&quot;#一、起源&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="社会工程学" scheme="https://sunweisu.github.io/categories/%E7%A4%BE%E4%BC%9A%E5%B7%A5%E7%A8%8B%E5%AD%A6/"/>
+    
+    
+    <category term="社会工程学" scheme="https://sunweisu.github.io/tags/%E7%A4%BE%E4%BC%9A%E5%B7%A5%E7%A8%8B%E5%AD%A6/"/>
+    
+    <category term="社工" scheme="https://sunweisu.github.io/tags/%E7%A4%BE%E5%B7%A5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CodeWhispererAI编码</title>
+    <link href="https://sunweisu.github.io/2023/06/15/codewhispererai-bian-ma/"/>
+    <id>https://sunweisu.github.io/2023/06/15/codewhispererai-bian-ma/</id>
+    <published>2023-06-15T03:54:45.000Z</published>
+    <updated>2023-06-16T01:02:47.076Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Amazon-CodeWhisperer介绍&quot;&gt;&lt;a href=&quot;#Amazon-CodeWhisperer介绍&quot; class=&quot;headerlink&quot; title=&quot;Amazon CodeWhisperer介绍&quot;&gt;&lt;/a&gt;Amazon</summary>
+        
+      
+    
+    
+    
+    <category term="AI编码" scheme="https://sunweisu.github.io/categories/AI%E7%BC%96%E7%A0%81/"/>
+    
+    
+    <category term="CodeWhisperer" scheme="https://sunweisu.github.io/tags/CodeWhisperer/"/>
+    
+    <category term="AI" scheme="https://sunweisu.github.io/tags/AI/"/>
+    
+    <category term="编码" scheme="https://sunweisu.github.io/tags/%E7%BC%96%E7%A0%81/"/>
+    
+    <category term="IDE" scheme="https://sunweisu.github.io/tags/IDE/"/>
+    
+  </entry>
+  
+</feed>
