@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="文章标签, guanjianzi">
+    <meta name="keywords" content="gallery, guanjianzi">
     <meta name="description" content="好久不见！">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -19,7 +19,7 @@
 
     
 
-    <title>文章标签 | 孙尾苏</title>
+    <title>gallery | 孙尾苏</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -660,196 +660,182 @@
 
     </div>
 </div>
+<!-- 增加相册显示的特效样式 -->
+<style>
+    .photo {
+        padding: 0 40px!important;
+        display: inline-block;
+        position: relative;
+        transition: all .6s;
+    }
+    .biaotiss {
+        padding: 8px 10px;
+        color: #4c4c4e;
+        text-align: center;
+        font-weight: 400;
+        font-size: 18px;
+    }
+    .img-item {
+        padding: .2rem;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 1px 2px 2px 0 #aaa;
+        transition: all .4s cubic-bezier(.63,.15,.03,1.12);
+        margin-bottom: 20px;
+    }
+    .photo:nth-child(odd) {
+        transform: rotateZ(-5deg);
+    }    
+    .photo:nth-child(even) {
+        transform: rotateZ(5deg);
+    }
+    .text_des{
+        position: absolute;
+        width: 92%;
+        height: 100%;
+        top: 0;
+        color: #000;
+        overflow: hidden;
+    }
+    .text_des h3{
+        margin: 5px 0 8px 0px;
+        right: 40px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.7rem;
+        position: absolute;
+        top: 10%;
+        font-style: italic;
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+        /*transform: translateX(200px);  */
+    }
+    .text_des p{
+        left: 15px;
+        position: absolute;
+        top: 50%;
+    /*    transform: translateX(-200px); 
+        transition-delay: 0.2s;    */
+    }
+    .my-gallery .photo img {
+        border-radius: 10px;
+        height: 240px;
+    }
+    .card .card-content {
+        padding: 24px 24px 24px 24px;
+    }
+    .miaoshus {
+        padding: 20px;
+        border: 1px dashed #e6e6e6;
+        color: #969696;
+        position: relative;
+        display: inline-block;
+        width: 95%;
+        background: #fbfbfb50;
+        border-radius: 10px;
+        font-size: 16px;
+        margin: 12px auto;
+    }
+    body.dark .miaoshus {
+        background: 0 0;
+        border: 1px dashed #888;
+    }
+    .img-item {
+            transition: all 0.4s ease-out;
+        }
+        .img-item a img{
+            opacity: 1;
+            transition: all 0.4s ease-out;
+        }
+        .img-item a:hover img{
+            opacity: 0.8;
+        }   
+        .biaotiss {
+            font-family: MV Boli;
+        }   
+        .miaoshus .title {
+        font-family: MV Boli;
+    } 
+    /*大屏幕下(桌面类)的样式*/
+    @media only screen and (min-width: 993px) {
+        .text_des h3{
+            transform: translateX(200px);
+        }
+        .text_des p{
+            transform: translateX(-200px); 
+            transition-delay: 0.2s;
+        }
+        .animate-text {
+            opacity: 0;
+            transition: all 0.6s ease-in-out; 
+        }
+    }
+    /*小屏幕下(桌面类)的样式*/
+    @media only screen and (max-width: 500px) {
+        .my-gallery .photo img {
+            height: 186px;
+        }
+    }
 
+</style>
 <main class="content">
-
-    
-
-<div id="tags" class="container chip-container">
-    <div class="card">
-        <div class="card-content">
-            <div class="tag-title center-align">
-                <i class="fas fa-tags"></i>&nbsp;&nbsp;文章标签
-            </div>
-            <div class="tag-chips">
-                
-                
-                <a href="/tags/CodeWhisperer/" title="CodeWhisperer: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="CodeWhisperer" style="background-color: #F9EBEA;">CodeWhisperer
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/AI/" title="AI: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="AI" style="background-color: #F5EEF8;">AI
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/%E7%BC%96%E7%A0%81/" title="编码: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="编码" style="background-color: #D5F5E3;">编码
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/IDE/" title="IDE: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="IDE" style="background-color: #E8F8F5;">IDE
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/jmter/" title="jmter: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="jmter" style="background-color: #FEF9E7;">jmter
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/%E5%88%86%E5%B8%83%E5%BC%8F%E5%8E%8B%E6%B5%8B/" title="分布式压测: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="分布式压测" style="background-color: #F8F9F9;">分布式压测
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/python/" title="python: 2">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="python" style="background-color: #82E0AA;">python
-                        <span class="tag-length">2</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/httprunner/" title="httprunner: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="httprunner" style="background-color: #D7BDE2;">httprunner
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/%E6%8E%A5%E5%8F%A3/" title="接口: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="接口" style="background-color: #A3E4D7;">接口
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/requests/" title="requests: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="requests" style="background-color: #85C1E9;">requests
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/" title="自动化: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="自动化" style="background-color: #F8C471;">自动化
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/selenium/" title="selenium: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="selenium" style="background-color: #F9E79F;">selenium
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/AI%E8%81%8A%E5%A4%A9/" title="AI聊天: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="AI聊天" style="background-color: #85C1E9;">AI聊天
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/" title="人工智能: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="人工智能" style="background-color: #D7BDE2;">人工智能
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/%E7%A4%BE%E4%BC%9A%E5%B7%A5%E7%A8%8B%E5%AD%A6/" title="社会工程学: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="社会工程学" style="background-color: #F8F9F9;">社会工程学
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/%E7%A4%BE%E5%B7%A5/" title="社工: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="社工" style="background-color: #85C1E9;">社工
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
+    <div class="container chip-container">
+        <div class="card">
+            <div class="card-content">
+                <div class="tag-title center-align">
+                    <div class="miaoshus">
+                        <div class="title center-align">“ 光影流年 ”</div>
+                        “ 这里有光影流年，还有两朵穿衣裳的云，相拥在明天的河岸。”                      
+                    </div>
+                </div>
+                <div class="my-gallery">
+                    <div class="row">
+                    
+                        
+                        
+                            
+                            
+                            <div class="photo col s12 m6 l4">
+                                <div class="img-item">
+                                    <a href="./Blue Archive">
+                                        <img data-src="/medias/loading.gif" data-original="images/1.jpg" class="responsive-img" alt="img"+0 />
+                                        <div class="biaotiss">“ Blue Archive ”<br>“ 2023-11 ”</div>
+                                    </a>
+                                </div>                              
+                            </div>
+                            
+                        
+                    
+                </div>
             </div>
         </div>
     </div>
-</div>
-
-    
-    <link rel="stylesheet" type="text/css" href="/libs/jqcloud/jqcloud.css">
-<style type="text/css">
-    #tag-wordcloud {
-        width: 100%;
-        height: 300px;
-    }
-</style>
-
-<div class="container" data-aos="fade-up">
-    <div class="card">
-        <div id="tag-wordcloud" class="card-content"></div>
-    </div>
-</div>
-
-<script type="text/javascript" src="/libs/jqcloud/jqcloud-1.0.4.min.js"></script>
-<script type="text/javascript">
-    
-
-    $('#tag-wordcloud').jQCloud([{"text":"CodeWhisperer","weight":1,"link":"/tags/CodeWhisperer/"},{"text":"AI","weight":1,"link":"/tags/AI/"},{"text":"编码","weight":1,"link":"/tags/编码/"},{"text":"IDE","weight":1,"link":"/tags/IDE/"},{"text":"jmter","weight":1,"link":"/tags/jmter/"},{"text":"分布式压测","weight":1,"link":"/tags/分布式压测/"},{"text":"python","weight":2,"link":"/tags/python/"},{"text":"httprunner","weight":1,"link":"/tags/httprunner/"},{"text":"接口","weight":1,"link":"/tags/接口/"},{"text":"requests","weight":1,"link":"/tags/requests/"},{"text":"自动化","weight":1,"link":"/tags/自动化/"},{"text":"selenium","weight":1,"link":"/tags/selenium/"},{"text":"AI聊天","weight":1,"link":"/tags/AI聊天/"},{"text":"人工智能","weight":1,"link":"/tags/人工智能/"},{"text":"社会工程学","weight":1,"link":"/tags/社会工程学/"},{"text":"社工","weight":1,"link":"/tags/社工/"}], {
-        autoResize: true
-    });
-</script>
-
-    
-
+    <script>
+        start()
+            $(window).on('scroll', function(){
+            start();
+        })
+        function start(){
+              //.not('[data-isLoaded]')选中已加载的图片不需要重新加载
+            $('.container img').not('[data-isLoaded]').each(function(){
+                var $node = $(this)
+                if( isShow($node) ){
+                    loadImg($node);
+                }
+            });
+        }
+        //判断一个元素是不是出现在窗口(视野)
+        function isShow($node){
+            return $node.offset().top <= $(window).height() + $(window).scrollTop();
+        }
+        //加载图片
+        function loadImg($img){
+        //.attr(值)
+        //.attr(属性名称,值)
+            $img.attr('src', $img.attr('data-src')); //把data-src的值 赋值给src
+            $img.attr('data-isLoaded', 1);//已加载的图片做标记
+        }
+    </script>
 </main>
-
 
     <footer class="page-footer bg-color">
     

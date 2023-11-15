@@ -218,23 +218,26 @@
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/tags" class="waves-effect waves-light">
-      
-      <i class="fas fa-tags" style="zoom: 0.6;"></i>
-      
-      <span>标签</span>
-    </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
     <a href="/categories" class="waves-effect waves-light">
+
       
       <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
       
       <span>分类</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
     </a>
+    <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="/tags">
+          
+          <i class="fas fa-tags" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>标签</span>
+        </a>
+      </li>
+      
+    </ul>
     
   </li>
   
@@ -252,22 +255,25 @@
   <li class="hide-on-med-and-down nav-item">
     
     <a href="/about" class="waves-effect waves-light">
+
       
       <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
       
       <span>关于</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
     </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
-    <a href="/story" class="waves-effect waves-light">
+    <ul class="sub-nav menus_item_child ">
       
-      <i class="fa-solid fa-book" style="zoom: 0.6;"></i>
+      <li>
+        <a href="/gallery">
+          
+          <i class="fa-solid fa-image" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>相册</span>
+        </a>
+      </li>
       
-      <span>故事</span>
-    </a>
+    </ul>
     
   </li>
   
@@ -319,23 +325,26 @@
         
         <li class="m-nav-item">
 	  
-		<a href="/tags" class="waves-effect waves-light">
+		<a href="javascript:;">
 			
-			    <i class="fa-fw fas fa-tags"></i>
-			
-			标签
-		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
-		<a href="/categories" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-bookmark"></i>
+				<i class="fa-fw fas fa-bookmark"></i>
 			
 			分类
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
 		</a>
+            <ul  style="background:  ;" >
+              
+                <li>
+
+                  <a href="/tags " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-tags" style="position: absolute;left:50px" ></i>
+			      
+		          <span>标签</span>
+                  </a>
+                </li>
+              
+            </ul>
           
         </li>
         
@@ -352,23 +361,26 @@
         
         <li class="m-nav-item">
 	  
-		<a href="/about" class="waves-effect waves-light">
+		<a href="javascript:;">
 			
-			    <i class="fa-fw fas fa-user-circle"></i>
+				<i class="fa-fw fas fa-user-circle"></i>
 			
 			关于
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
 		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
-		<a href="/story" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fa-solid fa-book"></i>
-			
-			故事
-		</a>
+            <ul  style="background:  ;" >
+              
+                <li>
+
+                  <a href="/gallery " style="margin-left:75px">
+				  
+				   <i class="fa fa-solid fa-image" style="position: absolute;left:50px" ></i>
+			      
+		          <span>相册</span>
+                  </a>
+                </li>
+              
+            </ul>
           
         </li>
         
@@ -752,28 +764,10 @@
                 </a>
                 
                 
-                <a href="/tags/%E7%A4%BE%E4%BC%9A%E5%B7%A5%E7%A8%8B%E5%AD%A6/" title="社会工程学: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="社会工程学" style="background-color: #F8C471;">社会工程学
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/%E7%A4%BE%E5%B7%A5/" title="社工: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="社工" style="background-color: #F9E79F;">社工
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
                 <a href="/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/" title="自动化: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="自动化" style="background-color: #FEF9E7;">自动化
+                            data-tagname="自动化" style="background-color: #F8C471;">自动化
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -782,7 +776,7 @@
                 <a href="/tags/selenium/" title="selenium: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-active "
-                            data-tagname="selenium" style="background-color: #D7BDE2;">selenium
+                            data-tagname="selenium" style="background-color: #F9E79F;">selenium
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -801,6 +795,24 @@
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
                             data-tagname="人工智能" style="background-color: #D7BDE2;">人工智能
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/%E7%A4%BE%E4%BC%9A%E5%B7%A5%E7%A8%8B%E5%AD%A6/" title="社会工程学: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="社会工程学" style="background-color: #F8F9F9;">社会工程学
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/%E7%A4%BE%E5%B7%A5/" title="社工: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="社工" style="background-color: #85C1E9;">社工
                         <span class="tag-length">1</span>
                     </span>
                 </a>
