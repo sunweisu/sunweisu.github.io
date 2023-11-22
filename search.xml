@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>VMware网络桥接（服务器集群）</title>
+      <link href="/2023/11/22/vmware-wang-luo-qiao-jie/"/>
+      <url>/2023/11/22/vmware-wang-luo-qiao-jie/</url>
+      
+        <content type="html"><![CDATA[<h2 id="一、目的性"><a href="#一、目的性" class="headerlink" title="一、目的性"></a>一、目的性</h2><ol><li>可以在自己搭建的服务器或Windows，macos等系统上，可以进行更多的实验且不会担心自己对别人电脑遭到破坏</li><li>即使环境搭建坏，也可以删除主机，重新搭建</li><li>可以搭建多个服务器集群，分布式搭建（只要电脑性能好）</li><li>练习搭建各种环境</li></ol><h2 id="二、虚拟主机-服务器局域网和局域网内互通"><a href="#二、虚拟主机-服务器局域网和局域网内互通" class="headerlink" title="二、虚拟主机/服务器局域网和局域网内互通"></a>二、虚拟主机/服务器局域网和局域网内互通</h2><ol><li>设置搭建好的虚拟机选择网络适配器，选择桥接模式，点击确定<br><img src="https://pic7.58cdn.com.cn/nowater/webim/big/n_v295515efebd784a8aabf457a76c5fc03c.png" alt="1"></li><li>选择虚拟网络编辑器，选择桥接模式，选择自己的物理网卡<br><img src="https://pic7.58cdn.com.cn/nowater/webim/big/n_v2c18787f657ed49f09bd62fff78fac634.png" alt="2"></li><li>选择有线设置，当前系统为centos7<br><img src="https://pic1.58cdn.com.cn/nowater/webim/big/n_v2126ff88b92914de3993bb395dbdb563f.png" alt="3"></li><li>选择手动，输入自己宿主机当前局域网的没有用到的ip地址，（自己可以扫描局域网找，也可以ping通和不通来找）子掩码、网关、DNS和宿主机网卡配置一致<br><img src="https://pic7.58cdn.com.cn/nowater/webim/big/n_v24d923d0ca52f4ab0ab35ff4027aab24e.png" alt="4"></li><li>查看宿主机的ip地址、子掩码、网关、DNS等，cmd命令窗口输入ipconfig /all</li><li>宿主机与虚拟机互ping，局域网内ping其它主机与虚拟机互ping成功，虚拟机打开浏览器访问百度成功</li></ol><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+      
+      
+      <categories>
+          
+          <category> VMware </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 网络桥接 </tag>
+            
+            <tag> VMware </tag>
+            
+            <tag> 服务器集群 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>jmeter分布式压测</title>
       <link href="/2023/10/18/jmeter-fen-bu-shi-ya-ce/"/>
       <url>/2023/10/18/jmeter-fen-bu-shi-ya-ce/</url>

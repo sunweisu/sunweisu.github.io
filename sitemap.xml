@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://sunweisu.github.io/2023/11/22/vmware-wang-luo-qiao-jie/</loc>
+    
+    <lastmod>2023-11-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://sunweisu.github.io/Notice/index.html</loc>
+    
+    <lastmod>2023-11-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://sunweisu.github.io/2023/06/16/she-hui-gong-cheng-xue/</loc>
     
     <lastmod>2023-11-16</lastmod>
@@ -139,7 +157,7 @@
 
   <url>
     <loc>https://sunweisu.github.io/</loc>
-    <lastmod>2023-11-17</lastmod>
+    <lastmod>2023-11-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -147,112 +165,133 @@
   
   <url>
     <loc>https://sunweisu.github.io/tags/CodeWhisperer/</loc>
-    <lastmod>2023-11-17</lastmod>
+    <lastmod>2023-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://sunweisu.github.io/tags/AI/</loc>
-    <lastmod>2023-11-17</lastmod>
+    <lastmod>2023-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://sunweisu.github.io/tags/%E7%BC%96%E7%A0%81/</loc>
-    <lastmod>2023-11-17</lastmod>
+    <lastmod>2023-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://sunweisu.github.io/tags/IDE/</loc>
-    <lastmod>2023-11-17</lastmod>
+    <lastmod>2023-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://sunweisu.github.io/tags/%E7%BD%91%E7%BB%9C%E6%A1%A5%E6%8E%A5/</loc>
+    <lastmod>2023-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://sunweisu.github.io/tags/VMware/</loc>
+    <lastmod>2023-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://sunweisu.github.io/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%9B%86%E7%BE%A4/</loc>
+    <lastmod>2023-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://sunweisu.github.io/tags/jmter/</loc>
-    <lastmod>2023-11-17</lastmod>
+    <lastmod>2023-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://sunweisu.github.io/tags/%E5%88%86%E5%B8%83%E5%BC%8F%E5%8E%8B%E6%B5%8B/</loc>
-    <lastmod>2023-11-17</lastmod>
+    <lastmod>2023-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://sunweisu.github.io/tags/python/</loc>
-    <lastmod>2023-11-17</lastmod>
+    <lastmod>2023-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://sunweisu.github.io/tags/httprunner/</loc>
-    <lastmod>2023-11-17</lastmod>
+    <lastmod>2023-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://sunweisu.github.io/tags/%E6%8E%A5%E5%8F%A3/</loc>
-    <lastmod>2023-11-17</lastmod>
+    <lastmod>2023-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://sunweisu.github.io/tags/requests/</loc>
-    <lastmod>2023-11-17</lastmod>
+    <lastmod>2023-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://sunweisu.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/</loc>
-    <lastmod>2023-11-17</lastmod>
+    <lastmod>2023-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://sunweisu.github.io/tags/selenium/</loc>
-    <lastmod>2023-11-17</lastmod>
+    <lastmod>2023-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://sunweisu.github.io/tags/%E7%A4%BE%E4%BC%9A%E5%B7%A5%E7%A8%8B%E5%AD%A6/</loc>
-    <lastmod>2023-11-17</lastmod>
+    <lastmod>2023-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://sunweisu.github.io/tags/%E7%A4%BE%E5%B7%A5/</loc>
-    <lastmod>2023-11-17</lastmod>
+    <lastmod>2023-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://sunweisu.github.io/tags/AI%E8%81%8A%E5%A4%A9/</loc>
-    <lastmod>2023-11-17</lastmod>
+    <lastmod>2023-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://sunweisu.github.io/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/</loc>
-    <lastmod>2023-11-17</lastmod>
+    <lastmod>2023-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -261,42 +300,49 @@
   
   <url>
     <loc>https://sunweisu.github.io/categories/AI%E7%BC%96%E7%A0%81/</loc>
-    <lastmod>2023-11-17</lastmod>
+    <lastmod>2023-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://sunweisu.github.io/categories/VMware/</loc>
+    <lastmod>2023-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://sunweisu.github.io/categories/jmeter/</loc>
-    <lastmod>2023-11-17</lastmod>
+    <lastmod>2023-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://sunweisu.github.io/categories/%E6%8E%A5%E5%8F%A3%E8%87%AA%E5%8A%A8%E5%8C%96/</loc>
-    <lastmod>2023-11-17</lastmod>
+    <lastmod>2023-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://sunweisu.github.io/categories/ui%E8%87%AA%E5%8A%A8%E5%8C%96/</loc>
-    <lastmod>2023-11-17</lastmod>
+    <lastmod>2023-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://sunweisu.github.io/categories/%E7%A4%BE%E4%BC%9A%E5%B7%A5%E7%A8%8B%E5%AD%A6/</loc>
-    <lastmod>2023-11-17</lastmod>
+    <lastmod>2023-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://sunweisu.github.io/categories/AI/</loc>
-    <lastmod>2023-11-17</lastmod>
+    <lastmod>2023-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
